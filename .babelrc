@@ -1,0 +1,20 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry",
+        "targets": {
+          "browsers": [
+            "last 2 versions"
+          ]
+        }
+      }
+    ],
+    "vue",
+  ],
+  "plugins": [
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-transform-runtime"
+  ]
+}

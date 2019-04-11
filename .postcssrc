@@ -1,0 +1,14 @@
+{
+  "plugins": {
+    "autoprefixer": {
+      "browsers": [
+        "> 5%",
+        "last 2 versions",
+      ]
+    },
+    "postcss-csso": {
+      restructure: true,
+      comments: true
+    }
+  }
+}
